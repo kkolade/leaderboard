@@ -3,7 +3,7 @@
 # 📗 Table of Contents
 
 - [📗 Table of Contents](#-table-of-contents)
-- [📖 A Minimalist To Do App ](#-a-minimalist-to-do-app-)
+- [📖 Leaderboard ](#-leaderboard-)
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
@@ -21,9 +21,9 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 A Minimalist To Do App <a name="about-project"></a>
+# 📖 Leaderboard <a name="about-project"></a>
 
-**The To Do App** is a simple web base application to manage your tasks and activities.
+**The leaderboard** website displays scores submitted by different players. It also allows you to submit your score. All data is preserved thanks to the external Leaderboard API service.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -36,6 +36,7 @@
     <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Reference">CSS</a></li>
     <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">Vanilla JavaScript</a></li>
     <li><a href="https://webpack.js.org/">Webpack</a></li>
+    <li><a href="https://us-central1-js-capstone-backend.cloudfunctions.net/api/">Leaderboard</a></li>
   </ul>
 </details>
 
@@ -50,8 +51,8 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **Add tasks and persist in localStorage**
-- **Ability to update, mark as completed and delete tasks**
+- **make call to leaderboard API**
+- **Persist User submission**
 - **Minimalist interface**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
