@@ -1,0 +1,80 @@
+/*!******************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/css/reset.css ***!
+  \******************************************************************************************************************************************************/
+/* reset */
+:root {
+  font-size: 16px;
+  box-sizing: border-box;
+  scroll-behavior: smooth; }
+
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: lato, sans-serif;
+  font-size: 1rem;
+  color: #444;
+  background-color: #eee; }
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  padding: 0;
+  margin: 0; }
+
+li {
+  list-style: none; }
+
+a {
+  text-decoration: none;
+  background-color: transparent; }
+
+img {
+  max-width: 100%;
+  height: auto;
+  border-style: none; }
+
+/*!*******************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/scss/main.scss ***!
+  \*******************************************************************************************************************************************************/
+/* Container */
+.container {
+  width: 90%;
+  margin: 1rem auto;
+  background-color: #fff;
+  padding: 0.5rem; }
+
+.main {
+  width: 100%;
+  display: flex; }
+
+.section {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  padding: 0.5rem; }
+  .section-header {
+    display: flex;
+    justify-content: space-between; }
+  .section-heading {
+    font-size: 1rem; }
+
+.input {
+  margin: 0.8rem 0; }
+
+.scores {
+  margin-top: 0.8rem;
+  border: 1px solid #999; }
+
+.player-score:nth-child(even) {
+  background-color: #d3cece; }
+
+@media (min-width: 768px) {
+  .container {
+    width: 50%; }
+  .section {
+    padding: 2rem; }
+    .section-heading {
+      font-size: 1.3rem; } }
+
