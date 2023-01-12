@@ -1,0 +1,55 @@
+/* Container */
+.container {
+  width: 90%;
+  margin: 1rem auto;
+  background-color: #fff;
+  padding: 0.5rem;
+}
+
+.main {
+  width: 100%;
+  display: flex;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  padding: 0.5rem;
+
+  &-header {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &-heading {
+    font-size: 1rem;
+  }
+}
+
+.input {
+  margin: 0.8rem 0;
+}
+
+.scores {
+  margin-top: 0.8rem;
+  border: 1px solid #999;
+}
+
+.player-score:nth-child(even) {
+  background-color: #d3cece;
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 50%;
+  }
+
+  .section {
+    padding: 2rem;
+
+    &-heading {
+      font-size: 1.3rem;
+    }
+  }
+}
