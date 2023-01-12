@@ -3,8 +3,8 @@ const addScoreForm = document.querySelector('.add-score-form');
 
 const CurrentScore = class {
   constructor(userName, score) {
-    userName = this.userName;
-    score = this.score;
+    this.userName = userName;
+    this.score = score;
   }
 };
 
