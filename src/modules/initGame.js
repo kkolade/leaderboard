@@ -22,7 +22,3 @@ const myGame = async () => {
     return data;
   }
 };
-
-const gameID = myGame();
-
-export { gameID };
