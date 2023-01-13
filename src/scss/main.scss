@@ -2,8 +2,12 @@
 .container {
   width: 90%;
   margin: 1rem auto;
-  background-color: #fff;
+  background-color: #c9dfe8;
   padding: 0.5rem;
+  box-shadow: 3px 3px 5px 3px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 3px 3px 5px 3px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 3px 3px 5px 3px rgba(0, 0, 0, 0.75);
+  border-radius: 5px;
 }
 
 .main {
@@ -36,8 +40,29 @@
   border: 1px solid #999;
 }
 
+.scores li {
+  padding-left: 0.5rem;
+}
+
 .scores li:nth-child(even) {
   background-color: #d3cece;
+}
+
+.scores li:nth-child(odd) {
+  background-color: #fff;
+}
+
+.button {
+  padding: 0.2rem 0.5rem;
+  border-radius: 0.8rem;
+  border: 1px solid #5baac9;
+  background-color: #5baac9;
+  color: #fff;
+  box-shadow: 1.5px 1.5px 3px 1.5px rgba(0, 0, 0, 0.75);
+}
+
+.button:hover {
+  background-color: #8dc3d8;
 }
 
 @media (min-width: 768px) {
