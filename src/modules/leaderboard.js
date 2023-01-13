@@ -16,4 +16,14 @@ class Leaderboard {
         localStorage.setItem('gameID', JSON.stringify(data));
       });
   };
+
+  getScore = async (url) => {
+    await fetch(url, {
+      method: 'GET',
+    })
+      .then((response) => response.json())
+      .then((data) => {
+        localStorage.setItem('data', JSON.stringify(data));
+      });
+  };
 }
