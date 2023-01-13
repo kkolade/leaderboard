@@ -15,28 +15,20 @@
         <div class="section score-display">
           <div class="section-header">
             <h2 class="section-heading">Recent Scores</h2>
-            <button class="refresh">Refresh</button>
+            <button id="refresh">Refresh</button>
           </div>
-          <ul class="scores">
-            <li class="player-score">Name: 40</li>
-            <li class="player-score">Name: 140</li>
-            <li class="player-score">Name: 240</li>
-            <li class="player-score">Name: 240</li>
-            <li class="player-score">Name: 400</li>
-            <li class="player-score">Name: 420</li>
-            <li class="player-score">Name: 404</li>
-            <li class="player-score">Name: 409</li>
-          </ul>
+          <ul class="scores"></ul>
         </div>
         <div class="section add-score">
           <h2 class="section-heading">Add Score</h2>
-          <form action="" class="add-score-form">
+          <form class="add-score-form">
             <input
               type="text"
               name="name"
               id="name"
               class="input"
               placeholder="Your name"
+              required
             />
             <input
               type="text"
@@ -44,9 +36,10 @@
               id="score"
               class="input"
               placeholder="Your Score"
+              required
             />
             <br />
-            <button class="submit">Submit</button>
+            <button id="submit">Submit</button>
           </form>
         </div>
       </main>

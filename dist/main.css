@@ -67,7 +67,7 @@ img {
   margin-top: 0.8rem;
   border: 1px solid #999; }
 
-.player-score:nth-child(even) {
+.scores li:nth-child(even) {
   background-color: #d3cece; }
 
 @media (min-width: 768px) {
