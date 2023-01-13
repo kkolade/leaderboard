@@ -10,3 +10,13 @@ const getScores = async () => {
     return data;
   }
 };
+
+const addScore = async () => {
+  const newPromise = getScores();
+  newPromise.then((data) => {
+    data.push(newScore);
+    return data;
+  });
+};
+
+export { getScores };
