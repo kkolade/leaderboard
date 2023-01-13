@@ -26,4 +26,14 @@ class Leaderboard {
         localStorage.setItem('data', JSON.stringify(data));
       });
   };
+
+  addScore = async (url, name, score) => {
+    await fetch(url, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json; charset=UTF-8',
+      },
+      body: JSON.stringify({ user: name, score }),
+    }).then((response) => response.json());
+  };
 }
