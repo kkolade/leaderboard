@@ -16,3 +16,4 @@ class Leaderboard {
         localStorage.setItem('gameID', JSON.stringify(data));
       });
   };
+}
