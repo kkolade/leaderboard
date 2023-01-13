@@ -37,3 +37,5 @@ class Leaderboard {
     }).then((response) => response.json());
   };
 }
+
+export default Leaderboard;
